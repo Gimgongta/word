@@ -1,16 +1,18 @@
 {
-	"meaning":"",
-	"word":"",
-	"reading":"",
+	"word":"会う",
+	"meaning":"만나다",
+	"reading":"あう",
+	"column":"あ",
 	"level":5,
-	"class":"",
+	"class":"verb",
 	"clear":1
 },
 {
-	"meaning":"",
-	"word":"",
-	"reading":"",
+	"word":"上がる",
+	"meaning":"오르다",
+	"reading":"あがる",
+	"column":"あ",
 	"level":5,
-	"class":"",
+	"class":"verb",
 	"clear":1
 },
