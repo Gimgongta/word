@@ -1,3 +1,5 @@
+"word":
+[	
 {
 	"word":"会う",
 	"meaning":"만나다",
@@ -15,4 +17,5 @@
 	"level":5,
 	"class":"verb",
 	"clear":1
-},
+}
+]
