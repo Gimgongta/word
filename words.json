@@ -38,6 +38,24 @@
 	"class":"verb",
 	"clear":1
 },
-	
+{
+	"word":"上げる",
+	"meaning":"올리다",
+	"reading":"あげる",
+	"column":"あ",
+	"level":5,
+	"class":"verb",
+	"clear":1
+},
+{
+	"word":"遊ぶ",
+	"meaning":"놀다",
+	"reading":"あそぶ",
+	"column":"あ",
+	"level":5,
+	"class":"verb",
+	"clear":1
+},
+
 ]
 }
