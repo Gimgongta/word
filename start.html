@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body></body>
+<script>
+
+const xtp = () => {
+
+	const request = new XMLHttpRequest();
+	let response = "";
+
+	request.onreadystatechange = () => {
+
+		if (request.readyState === 4 && request.status == 200　) {
+		
+			response = request.responseText;
+			setWord( JSON.parse( response ) );
+			return;
+
+		}
+	}
+
+	request.open(　"GET", 'https://raw.githubusercontent.com/Gimgongta/word/master/word_5_verb.json', true　);
+	request.send(　null　);
+
+}
+
+
+const setWord = ( _list ) => {
+
+	const length = _list.word.length;
+	let count = 0;
+	setInterval( () => {
+		viewWord( _list, count ); 
+		count = ( ++count === length ) ? 0 : count; 
+	}
+	, 5000 );
+
+}
+
+const viewWord = ( _list, _count ) => {
+	
+	document.title = _list.word[ _count ].word;
+
+}
+
+
+const start = xtp();
+
+</script>
+</html>
